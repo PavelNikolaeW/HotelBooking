@@ -1,3 +1,4 @@
 .announcement__image {
-	
+  order: -1;
+  justify-self: center;
 }

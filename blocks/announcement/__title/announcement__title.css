@@ -1,6 +1,21 @@
 .announcement__title {
   font-family: 'Montserrat';
-  font-size: 3rem;
-  line-height: 1.5;
+  font-size: 1.5rem;
+  line-height: 1.1;
   font-weight: 600;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .announcement__title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .announcement__title {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
 }
