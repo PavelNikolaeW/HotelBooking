@@ -17,4 +17,7 @@
     order: 2;
     gap: 35px;
   }
+  .header__navbar>ul {
+    gap: 35px;
+  }
 }

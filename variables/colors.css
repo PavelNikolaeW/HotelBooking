@@ -1,5 +1,6 @@
 :root {
   --text-color: rgba(25, 34, 82, 1);
+  --announcement-color: rgba(132, 143, 172, 1);
   --buttonBG-color: rgba(14, 23, 52, 1);
   --button-color: #fff;
 }

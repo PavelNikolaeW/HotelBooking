@@ -29,6 +29,18 @@
 
 @import url(../blocks/button/button.css);
 
+/*--- ANNOUNCEMENT ---*/
+
+@import url(../blocks/announcement/announcement.css);
+@import url(../blocks/announcement/__title/announcement__title.css);
+@import url(../blocks/announcement/__text/announcement__text.css);
+@import url(../blocks/announcement/__subtext/announcement__subtext.css);
+@import url(../blocks/announcement/__item/announcement__item.css);
+@import url(../blocks/announcement/__img/announcement__img.css);
+@import url(../blocks/announcement/__image/announcement__image.css);
+@import url(../blocks/announcement/__group/announcement__group.css);
+@import url(../blocks/announcement/__btn/announcement__btn.css);
+
 /*--- __CONTAINER ---*/
 
 @import url(../blocks/__container/__container.css);
