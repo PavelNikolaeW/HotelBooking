@@ -1,0 +1,34 @@
+
+/*--- NO BEM BLOCKS ---*/
+
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../variables/colors.css);
+
+/*--- PAGE ---*/
+
+@import url(../blocks/page/page.css);
+
+/*--- MAIN ---*/
+
+@import url(../blocks/main/main.css);
+
+/*--- HEADER ---*/
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__navbar/header__navbar.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__button/header__button.css);
+
+/*--- FOOTER ---*/
+
+@import url(../blocks/footer/footer.css);
+
+/*--- BUTTON ---*/
+
+@import url(../blocks/button/button.css);
+
+/*--- __CONTAINER ---*/
+
+@import url(../blocks/__container/__container.css);

@@ -1,0 +1,13 @@
+.header__logo {
+  font-size: 1.3rem;
+  line-height: 1.125;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header__logo {
+    font-size: 2rem;
+    line-height: 1.125;
+  }
+}
