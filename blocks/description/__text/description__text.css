@@ -1,0 +1,10 @@
+.description__text {
+  align-self: center;
+  max-width: 410px;
+}
+
+@media screen and (min-width: 1024px) {
+  .description__text {
+    max-width: 584px;
+  }
+}
