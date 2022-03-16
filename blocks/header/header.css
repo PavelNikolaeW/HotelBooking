@@ -1,6 +1,6 @@
 .header {
   order: 1;
-  min-height: 80px;
+  min-height: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
