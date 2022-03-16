@@ -1,0 +1,6 @@
+.footer__text {
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--footerText-color);
+  max-width: 186px;
+}

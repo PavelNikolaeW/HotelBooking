@@ -25,6 +25,20 @@
 /*--- FOOTER ---*/
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__nav-item/footer__nav-item.css);
+@import url(../blocks/footer/__nav-item/_title/footer__nav-item_title.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__lists/footer__lists.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/footer/__content/footer__content.css);
 
 /*--- DESCRIPTION ---*/
 
