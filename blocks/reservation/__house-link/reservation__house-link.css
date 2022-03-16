@@ -20,5 +20,13 @@
 @media (max-width: 1024px) {
   .reservation__house-link {
     font-size: 14px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reservation__house-link {
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 }

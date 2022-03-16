@@ -1,3 +1,5 @@
 .interiors__image-wide {
   grid-area: img1;
+  position: relative;
+  
 }

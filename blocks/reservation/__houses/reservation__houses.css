@@ -1,9 +1,15 @@
 .reservation__houses {
   padding: 0;
-  margin: 0 120px 0 120px;
+  margin: 0 0px 0 0px;
   list-style-type: none;
   display: flex;
   column-gap: 24px;
   /*flex-wrap: wrap;*/
   flex-basis: 100%;
+}
+
+@media (max-width: 768px) {
+  .reservation__houses {
+    flex-direction: column;
+  }
 }

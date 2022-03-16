@@ -8,3 +8,15 @@
   line-height: 36px;
   color: #000000;
 }
+
+@media (max-width: 1024px) {
+  .reservation__house-title {
+    min-height: 72px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reservation__house-title {
+    min-height: 36px;
+  }
+}
