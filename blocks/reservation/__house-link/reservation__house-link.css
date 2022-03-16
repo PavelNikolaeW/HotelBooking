@@ -1,0 +1,24 @@
+.reservation__house-link {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424F7B;
+  text-decoration: none;
+  opacity: 1;
+  margin-top: 59px;
+  align-self: baseline;
+}
+
+.reservation__house-link:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s linear;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .reservation__house-link {
+    font-size: 14px;
+  }
+}

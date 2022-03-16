@@ -73,3 +73,32 @@
 /*--- __CONTAINER ---*/
 
 @import url(../blocks/__container/__container.css);
+
+/*--- INTERIORS ---*/
+@import url(../blocks/interiors/interiors.css);
+@import url(../blocks/interiors/__title/interiors__title.css);
+@import url(../blocks/interiors/__images/interiors__images.css);
+@import url(../blocks/interiors/__image/interiors__image.css);
+@import url(../blocks/interiors/__image-wide/interiors__image-wide.css);
+@import url(../blocks/interiors/__image-studio/interiors__image-studio.css);
+@import url(../blocks/interiors/__image-kitchen/interiors__image-kitchen.css);
+@import url(../blocks/interiors/__image-living/interiors__image-living.css);
+
+/*--- RESERVSTIONS ---*/
+@import url(../blocks/reservation/reservation.css);
+@import url(../blocks/reservation/__title/reservation__title.css);
+@import url(../blocks/reservation/__text/reservation__text.css);
+@import url(../blocks/reservation/__button/reservation__button.css);
+@import url(../blocks/reservation/__houses/reservation__houses.css);
+@import url(../blocks/reservation/__house/reservation__house.css);
+@import url(../blocks/reservation/__house-image/reservation__house-image.css);
+@import url(../blocks/reservation/__house-title/reservation__house-title.css);
+@import url(../blocks/reservation/__house-text/reservation__house-text.css);
+@import url(../blocks/reservation/__house-link/reservation__house-link.css);
+
+
+/*--- REVIEWS ---*/
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
+@import url(../blocks/reviews/__author/reviews__author.css);

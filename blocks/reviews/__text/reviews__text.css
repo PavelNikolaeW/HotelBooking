@@ -1,0 +1,11 @@
+.reviews__text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  text-align: center;
+  margin-top: 44px;
+  margin-bottom: 40px;
+}
