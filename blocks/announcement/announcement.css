@@ -9,7 +9,7 @@
 @media screen and (min-width: 768px) {
   .announcement {
     display: grid;
-    grid-template-columns: 51% 49%;
+    grid-template-columns: calc(51% - 15px) calc(49% - 15px);
     gap: 30px;
   }
 }
