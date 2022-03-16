@@ -1,5 +1,13 @@
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Inter-Regular.woff2?v=3.19") format("woff2"), url("Inter-Regular.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -7,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-display: swap;
@@ -15,9 +23,9 @@
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('Montserrat-SemiBold.eot');
-  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url('Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'), url('Montserrat-SemiBold.woff') format('woff'), url('Montserrat-SemiBold.ttf') format('truetype');
+  font-family: "Montserrat";
+  src: url("Montserrat-SemiBold.eot");
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("Montserrat-SemiBold.woff") format("woff"), url("Montserrat-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
