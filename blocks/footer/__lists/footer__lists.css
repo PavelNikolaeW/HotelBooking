@@ -1,7 +1,14 @@
 .footer__lists {
   list-style: none;
   display: flex;
-  gap: 96px;
+  flex-wrap: wrap;
+  gap: 46px;
+  margin: 0;
   padding: 0;
-  margin: 120px 0 0 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__lists {
+    gap: 96px;
+  }
 }

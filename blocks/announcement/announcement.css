@@ -1,5 +1,5 @@
 .announcement {
-  padding: 80px 0;
+  padding: 40px 0;
   display: flex;
   flex-direction: column;
 }
@@ -8,6 +8,7 @@
 
 @media screen and (min-width: 768px) {
   .announcement {
+    padding: 80px 0;
     display: grid;
     grid-template-columns: calc(51% - 15px) calc(49% - 15px);
     gap: 30px;
