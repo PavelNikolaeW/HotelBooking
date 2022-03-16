@@ -30,6 +30,10 @@
 
 @import url(../blocks/button/button.css);
 
+/*--- BUTTON-SM ---*/
+
+@import url(../blocks/button-sm/button-sm.css);
+
 /*--- ANNOUNCEMENT ---*/
 
 @import url(../blocks/announcement/announcement.css);
