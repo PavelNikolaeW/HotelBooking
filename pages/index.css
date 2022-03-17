@@ -1,4 +1,3 @@
-
 /*--- NO BEM BLOCKS ---*/
 
 @import url(../vendor/normalize.css);
@@ -108,6 +107,6 @@
 @import url(../blocks/announcement/__group/announcement__group.css);
 @import url(../blocks/announcement/__btn/announcement__btn.css);
 
-/*--- __CONTAINER ---*/
+/*--- CONTAINER ---*/
 
-@import url(../blocks/__container/__container.css);
+@import url(../blocks/container/container.css);

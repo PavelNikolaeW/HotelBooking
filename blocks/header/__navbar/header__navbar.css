@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 629px) {
   .header__navbar {
     order: 2;
     gap: 35px;

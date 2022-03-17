@@ -1,10 +1,23 @@
 .footer__body {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 46px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   padding: 40px 0;
+}
+
+@media screen and (min-width: 425px) {
+  .footer__body {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 872px) {
+  .footer__body {
+    justify-content: space-between;
+  }
 }
 
 @media screen and (min-width: 1024px) {

@@ -1,4 +1,4 @@
-.__container {
+.container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 15px 0 15px
@@ -7,19 +7,19 @@
 @media screen and (min-width: 425px) {}
 
 @media screen and (min-width: 768px) {
-  .__container {
+  .container {
     padding: 0 35px 0 35px
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .__container {
+  .container {
     padding: 0 100px 0 100px
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .__container {
+  .container {
     padding: 0 125px 0 125px
   }
 }
