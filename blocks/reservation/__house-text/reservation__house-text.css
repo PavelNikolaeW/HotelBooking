@@ -1,0 +1,22 @@
+.reservation__house-text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  width: 100%;
+  min-height: 90px;
+}
+
+@media (max-width: 1024px) {
+  .reservation__house-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reservation__house-text {
+    min-height: 40px;
+  }
+}

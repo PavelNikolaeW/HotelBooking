@@ -1,0 +1,22 @@
+.interiors__images {
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 75.7% 24.3%;
+  grid-template-areas: 
+  "img1 img2"
+  "img1 img3"
+  "img1 img4";
+  grid-gap: 2px;
+}
+
+@media (max-width: 768px) {
+  .interiors__images {
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "img1"
+    "img2"
+    "img3"
+    "img4";
+  }
+}
