@@ -1,7 +1,7 @@
 .button-sm {
   background-color: var(--buttonBG-color);
   color: var(--button-color);
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.187;
   font-weight: normal;
   border: none;
@@ -13,7 +13,6 @@
 @media screen and (min-width: 768px) {
   .button-sm {
     padding: 14px 16px;
-    font-size: 1rem;
     line-height: 1.187;
   }
 }

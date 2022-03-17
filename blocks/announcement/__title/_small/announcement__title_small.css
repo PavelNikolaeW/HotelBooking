@@ -1,0 +1,15 @@
+.announcement__title_small {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .announcement__title_small {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .announcement__title_small {
+    font-size: 36px;
+  }
+}
