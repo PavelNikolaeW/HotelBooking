@@ -2,3 +2,9 @@
   margin-top: 24px;
   margin-bottom: 80px;
 }
+
+@media (max-width: 1024px) {
+  .reviews__circles {
+    margin-bottom: 40px;
+  }
+}
