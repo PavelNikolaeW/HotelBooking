@@ -3,7 +3,7 @@
   font-style: normal;
   font-size: 18px;
   line-height: 150%;
-  color: #848FAC;
+  color: var(--announcement-color);
   width: 100%;
   min-height: 90px;
 }

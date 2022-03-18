@@ -1,6 +1,6 @@
 .reservation__button {
-  background-color:#0E1734;
-  color: #fff;
+  background-color: var(--buttonBG-color);
+  color: var(--button-color);
   font-size: 16px;
   line-height: 19.36px;
   width: 153px;

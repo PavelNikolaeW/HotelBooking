@@ -3,7 +3,7 @@
   font-style: normal;
   font-size: 18px;
   line-height: 27px;
-  color: #848FAC;
+  color: var(--announcement-color);
   max-width: 590px;
   margin: 24px 426px 32px 426px;
   text-align: center;

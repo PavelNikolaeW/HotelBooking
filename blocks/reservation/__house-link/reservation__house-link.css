@@ -3,9 +3,8 @@
   font-style: normal;
   font-size: 18px;
   line-height: 150%;
-  color: #424F7B;
+  color: var(--houseLink-color);
   text-decoration: none;
-  opacity: 1;
   margin-top: 59px;
   align-self: baseline;
 }
