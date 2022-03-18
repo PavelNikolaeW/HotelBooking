@@ -8,4 +8,11 @@
   border: none;
   border-radius: 4px;
   margin-bottom: 88px;
+  opacity: 1;
+}
+
+.reservation__button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s linear;
+  cursor: pointer;
 }
