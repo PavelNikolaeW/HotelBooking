@@ -11,20 +11,22 @@
   </head>
 
   <body class="page">
-    <header class="header container">
-      <b class="header__logo"><a href="#" class="header__link link-animation">HotelBooking</a></b>
-      <nav class="header__navbar">
-        <ul class="header__list">
-          <li class="header__item"><a href="#" class="header__link">Дома</a></li>
-          <li class="header__item"><a href="#" class="header__link">Бронирование</a></li>
-          <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
-        </ul>
-      </nav>
-      <button class="header__button button-sm">Бронировать</button>
+    <header class="header ">
+      <div class="header__body container">
+        <b class="header__logo"><a href="#" class="header__link link-animation">HotelBooking</a></b>
+        <nav class="header__navbar">
+          <ul class="header__list">
+            <li class="header__item"><a href="#" class="header__link">Дома</a></li>
+            <li class="header__item"><a href="#" class="header__link">Бронирование</a></li>
+            <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <button class="header__button button-sm">Бронировать</button>
+      </div>
     </header>
 
-    <main class="main">
-      <section class="announcement container">
+    <main class="main container">
+      <section class="announcement ">
         <div class="announcement__text">
           <h1 class="announcement__title">
             Аренда загородного дома для отдыха
@@ -47,7 +49,7 @@
         </ul>
       </section>
 
-      <section class="announcement container">
+      <section class="announcement ">
         <div class="announcement__text">
           <h2 class="announcement__title announcement__title_small">
             Уютный двухэтажный дом в&nbsp;норвежском стиле
@@ -61,7 +63,7 @@
         <img src="./img/announcement/img4.png" alt="Уютный двухэтажный дом в&nbsp;норвежском стиле" class="announcement__image" />
       </section>
 
-      <section class="description container">
+      <section class="description ">
         <ul class="description__list">
           <li class="description__item">
             <div class="description__text">
@@ -85,23 +87,27 @@
       </section>
 
       <section class="interiors">
-        <h2 class="interiors__title">Наши интерьеры</h2>
-        <ul class="interiors__images">
-          <li class="interiors__image-wide">
-            <img class="interiors__image interiors__image-parent" src="./img/interiors1.jpg" alt="интерьер гостиной">
-            <img class="interiors__circles" src="./img/circles.png" alt="слайдер картинок">
-          </li>
-          <li class="interiors__image-studio"><img class="interiors__image" src="./img/interiors2.jpg" alt="интерьер студии"></li>
-          <li class="interiors__image-kitchen"><img class="interiors__image" src="./img/interiors3.jpg" alt="интерьер кухни"></li>
-          <li class="interiors__image-living"><img class="interiors__image" src="./img/interiors4.jpg" alt="интерьер гостиной"></li>
-        </ul>
+        <div class="interiors__body">
+          <h2 class="interiors__title">Наши интерьеры</h2>
+          <ul class="interiors__images">
+            <li class="interiors__image-wide">
+              <img class="interiors__image interiors__image-parent" src="./img/interiors1.jpg" alt="интерьер гостиной">
+              <img class="interiors__circles" src="./img/circles.png" alt="слайдер картинок">
+            </li>
+            <li class="interiors__image-studio"><img class="interiors__image" src="./img/interiors2.jpg" alt="интерьер студии"></li>
+            <li class="interiors__image-kitchen"><img class="interiors__image" src="./img/interiors3.jpg" alt="интерьер кухни"></li>
+            <li class="interiors__image-living"><img class="interiors__image" src="./img/interiors4.jpg" alt="интерьер гостиной"></li>
+          </ul>
+        </div>
 
       </section>
 
-      <section class="reservation container">
-        <h2 class="reservation__title">Выберите ваш дом</h2>
-        <p class="reservation__text">У нас есть дома для любых мероприятий. Для большой&nbsp;компании у нас есть двухэтажный дом на самом краю леса.</p>
-        <button class="reservation__button">Подробнее</button>
+      <section class="reservation ">
+        <div class="reservation__text">
+          <h2 class="reservation__title">Выберите ваш дом</h2>
+          <p class="reservation__subtext">У нас есть дома для любых мероприятий. Для большой&nbsp;компании у нас есть двухэтажный дом на самом краю леса.</p>
+          <button class="reservation__button button">Подробнее</button>
+        </div>
         <ul class="reservation__houses">
           <li class="reservation__house">
             <img class="reservation__house-image" src="./img/small-house.jpg" alt="Маленький домик">
@@ -124,7 +130,7 @@
         </ul>
       </section>
 
-      <section class="reviews container">
+      <section class="reviews ">
         <h3 class="reviews__title">Отзывы</h3>
         <img class="reviews__image" src="./img/irina.png" alt="фото Ирины Ивановны">
         <p class="reviews__text">Мы очень долго искали коттедж, чтобы отметить день рождение. Все очень понравилось. Комфортно, уютно,не дом, а сказка. Все очень понравилось,, хочется приехать еще сюда не один раз</p>

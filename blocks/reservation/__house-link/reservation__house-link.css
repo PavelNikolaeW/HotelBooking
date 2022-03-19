@@ -5,8 +5,8 @@
   line-height: 150%;
   color: var(--houseLink-color);
   text-decoration: none;
-  margin-top: 59px;
   align-self: baseline;
+  margin-top: 20px;
 }
 
 .reservation__house-link:hover {

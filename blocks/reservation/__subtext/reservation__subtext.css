@@ -1,11 +1,10 @@
-.reviews__text {
+.reservation__subtext {
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
-  line-height: 150%;
+  line-height: 27px;
   color: var(--announcement-color);
   text-align: center;
-  margin-top: 44px;
-  margin-bottom: 40px;
-  max-width: 739px;
+  max-width: 588px;
+  margin: 0 0 8px 0;
 }

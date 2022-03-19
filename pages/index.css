@@ -1,3 +1,4 @@
+
 /*--- NO BEM BLOCKS ---*/
 
 @import url(../vendor/normalize.css);
@@ -18,6 +19,7 @@
 @import url(../blocks/reservation/reservation.css);
 @import url(../blocks/reservation/__title/reservation__title.css);
 @import url(../blocks/reservation/__text/reservation__text.css);
+@import url(../blocks/reservation/__subtext/reservation__subtext.css);
 @import url(../blocks/reservation/__houses/reservation__houses.css);
 @import url(../blocks/reservation/__house/reservation__house.css);
 @import url(../blocks/reservation/__house-title/reservation__house-title.css);
@@ -34,6 +36,10 @@
 
 @import url(../blocks/main/main.css);
 
+/*--- LINK-ANIMATION ---*/
+
+@import url(../blocks/link-animation/link-animation.css);
+
 /*--- INTERIORS ---*/
 
 @import url(../blocks/interiors/interiors.css);
@@ -46,6 +52,7 @@
 @import url(../blocks/interiors/__image-living/interiors__image-living.css);
 @import url(../blocks/interiors/__image-kitchen/interiors__image-kitchen.css);
 @import url(../blocks/interiors/__circles/interiors__circles.css);
+@import url(../blocks/interiors/__body/interiors__body.css);
 
 /*--- HEADER ---*/
 
@@ -56,6 +63,7 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__item/header__item.css);
 @import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__body/header__body.css);
 
 /*--- FOOTER ---*/
 
@@ -73,7 +81,7 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__icon/footer__icon.css);
-@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__body/footer__body.css);
 
 /*--- DESCRIPTION ---*/
@@ -85,6 +93,10 @@
 @import url(../blocks/description/__list/description__list.css);
 @import url(../blocks/description/__item/description__item.css);
 @import url(../blocks/description/__img/description__img.css);
+
+/*--- CONTAINER ---*/
+
+@import url(../blocks/container/container.css);
 
 /*--- BUTTON ---*/
 
@@ -106,7 +118,3 @@
 @import url(../blocks/announcement/__image/announcement__image.css);
 @import url(../blocks/announcement/__group/announcement__group.css);
 @import url(../blocks/announcement/__btn/announcement__btn.css);
-
-/*--- CONTAINER ---*/
-
-@import url(../blocks/container/container.css);

@@ -1,10 +1,13 @@
 .reservation__text {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 27px;
-  color: var(--announcement-color);
-  max-width: 590px;
-  margin: 24px 426px 32px 426px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 44px;
+  gap: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .reservation__text {
+    margin-bottom: 88px;
+  }
 }

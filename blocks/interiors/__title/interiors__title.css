@@ -7,4 +7,11 @@
   text-align: center;
   letter-spacing: -0.01em;
   grid-area: "title";
+  margin: 0 0 15px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .interiors__title {
+    margin: 0 0 35px 0;
+  }
 }
